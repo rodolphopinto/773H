@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Person
+  - ButtonPerson
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3484633071
+    locked: 0
+  - name: Middleground
+    uniqueID: 252834077
+    locked: 0
+  - name: Elevator
+    uniqueID: 2011794495
+    locked: 0
+  - name: Person
+    uniqueID: 1337162829
+    locked: 0
+  - name: Foreground
+    uniqueID: 1447601305
+    locked: 0
+  - name: Canvas
+    uniqueID: 1524917593
+    locked: 0

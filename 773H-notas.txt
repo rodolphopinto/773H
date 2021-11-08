@@ -1,0 +1,65 @@
+Background
+Elevator
+Person
+Foreground
+
+Andar 0 - y = 6.9
+Andar 1 - y = 5.55
+Andar 2 - y = 4.2
+Andar 3 - y = 2.9
+Andar 4 - y = 1.5
+Andar 5 - y = 0.2
+Andar 6 - y = -1.15
+Andar 7 - y = -2.5
+Andar 8 - y = -3.85
+
+Luxúria - ROSA
+Gula - LARANJA
+Ganância - AMARELO
+Ira - VERMELHO
+Preguiça - AZUL
+Inveja - VERDE
+Orgulho - PÚRPURA
+
+Tarefas
+
+-Criar o projeto na Unity - Feito
+-Criar o GameMnager - Feito
+-Criar as Tags e as Layers necessárias
+-
+-Desenvolver o GameManager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1810609184328912}
+  m_IsPrefabParent: 1
+--- !u!1 &1810609184328912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4359497727633678}
+  - component: {fileID: 114164865343063576}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4359497727633678
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1810609184328912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114164865343063576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1810609184328912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 644b5213d75c2484494aaccdf1829106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typePersons:
+  - {fileID: 1311690059151758, guid: 378979e3519d3f64aa5b38c028bb06be, type: 2}
+  - {fileID: 1147693450552984, guid: a98f479707f296f4795fd537c4e31b48, type: 2}
+  - {fileID: 1311890748867666, guid: ee0cace1579ab15428e9fdfc344fd565, type: 2}
+  - {fileID: 1328412303325650, guid: 4cded7bfd57c13e4f82b87a7156ced64, type: 2}
+  - {fileID: 1985010713777932, guid: 4954ccd4baab3bf4383b0bfa378ed23d, type: 2}
+  - {fileID: 1809351461251740, guid: 2ad3ed413972d444fa26a57890897ed0, type: 2}
+  - {fileID: 1766794321879940, guid: 0a19dbd975b86e9438d1e91f4ea16ed7, type: 2}
+  createPersonTimeRandMin: 8
+  createPersonTimeRandMax: 4
+  bounty: 1
+  menuSound: {fileID: 8300000, guid: a82ab261cdf6e70429bad05b580a18d5, type: 3}
+  gameSound: {fileID: 8300000, guid: 46e98c6715df7e84f8ed941f467f7de5, type: 3}
+  textQueue: {fileID: 0}
+  textSouls: {fileID: 0}
+  textChance: {fileID: 0}
+  finishDay: {fileID: 0}
+  gameOverScreen: {fileID: 0}
+  harvestedSoulsText: {fileID: 0}
+  soulsGameOverText: {fileID: 0}
+  chance: 0
+  queueSize: 0
+  maximumQueueSize: 0
+  souls: 0
+  currentSouls: 0
+  demand: 0
+  doorIsClossed: 0
+  elevatorFloors: 0
+  persons: []
+  createPersonTime: 0
+  firstTime: 0
+  canClose: 0
+  isCatastropheMode: 0
